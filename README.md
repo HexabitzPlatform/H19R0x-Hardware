@@ -1,2 +1,2 @@
-# H17R1x-Hardware
-Hexabitz 10A Stepper Drive Module Hardware Design
+# H19R0x-Hardware
+Hexabitz 36 V/6 Apeak Brushless DC Module Hardware Design
