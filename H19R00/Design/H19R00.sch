@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4360,27 +4360,27 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+2" library="Hexabitz" deviceset="VM" device=""/>
 <part name="C8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="470nF">
 <attribute name="CAPACITANCE" value="470nF"/>
-<attribute name="MFN" value="KYOCERA AVX"/>
-<attribute name="MPN" value="06031C471K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=06031C471K4T2A&amp;currency=USD&amp;specs=0"/>
+<attribute name="MFN" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X5R1H474K080AB"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=C1608X5R1H474K080AB&amp;currency=USD&amp;specs=0"/>
 <attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE_RATING" value="100V"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
 </part>
 <part name="C9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="470nF">
 <attribute name="CAPACITANCE" value="470nF"/>
-<attribute name="MFN" value="KYOCERA AVX"/>
-<attribute name="MPN" value="06031C471K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=06031C471K4T2A&amp;currency=USD&amp;specs=0"/>
+<attribute name="MFN" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X5R1H474K080AB"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=C1608X5R1H474K080AB&amp;currency=USD&amp;specs=0"/>
 <attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE_RATING" value="100V"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
 </part>
 <part name="C10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="470nF">
 <attribute name="CAPACITANCE" value="470nF"/>
-<attribute name="MFN" value="KYOCERA AVX"/>
-<attribute name="MPN" value="06031C471K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=06031C471K4T2A&amp;currency=USD&amp;specs=0"/>
+<attribute name="MFN" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X5R1H474K080AB"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=C1608X5R1H474K080AB&amp;currency=USD&amp;specs=0"/>
 <attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE_RATING" value="100V"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
 </part>
 <part name="D2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="BAT30KFILM" device="" package3d_urn="urn:adsk.eagle:package:41622969/2"/>
 <part name="R4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="100">
