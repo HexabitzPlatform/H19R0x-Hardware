@@ -200,6 +200,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4" projecturn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4I0QyMDIyMDIyNzUwMTk3Njc4MQ" f3durn="urn:adsk.wipprod:dm.lineage:t_dLAqoJQR-_lUNhQm560A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d0fa5c06-71d4-4626-b2b3-2fd40e9b0667" lastsyncedrevisionid="d0fa5c06-71d4-4626-b2b3-2fd40e9b0667" lastboardhashguid="f38e979e-4f3d-e87b-b43c-0d0d50450b73" lastpushedtime="2023-10-13T14:09:09Z" linktopcb3d="true"/>
 <plain>
 <dimension x1="30.00375" y1="17.4625" x2="-30.00375" y2="17.4625" x3="0" y3="19.05" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="0.15875" x2="0" y2="52.07" x3="0" y3="26.114375" textsize="1.778" layer="47"/>
@@ -618,7 +619,16 @@
 <text x="23.876" y="-2.413" size="1.778" layer="22" rot="MR330">O_V</text>
 <text x="28.702" y="0.4445" size="1.778" layer="22" rot="MR330">O_W</text>
 <text x="-6.8834" y="3.3655" size="1.778" layer="22" rot="MR330">38V MAX</text>
-<text x="24.511" y="4.572" size="1.778" layer="22" rot="MR330">Driver Out</text>
+<text x="23.0886" y="6.731" size="1.778" layer="22" rot="MR330">Driver Out</text>
+<text x="15.24" y="2.54" size="1.778" layer="21" rot="MR330">O_U</text>
+<text x="19.558" y="5.1054" size="1.778" layer="21" rot="MR330">O_V</text>
+<text x="24.1554" y="7.6835" size="1.778" layer="21" rot="MR330">O_W</text>
+<text x="12.991184375" y="-4.597403125" size="1.778" layer="21" rot="R150">Driver Out</text>
+<text x="-16.244409375" y="1.3537375" size="1.778" layer="21" rot="R30">VM</text>
+<text x="-9.1807875" y="7.475815625" size="1.778" layer="21" rot="R210">GND</text>
+<text x="-8.203125" y="7.30723125" size="1.778" layer="21" rot="R300">38V MAX</text>
+<text x="29.0780125" y="4.2195625" size="1.778" layer="21" rot="R90">6A MAX</text>
+<text x="15.388328125" y="1.391778125" size="1.778" layer="22" rot="MR150">6A MAX</text>
 </plain>
 <libraries>
 <library name="HEXABITZ_USER_INTERFACE_PARTS" urn="urn:adsk.eagle:library:20064563">
@@ -3023,7 +3033,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="TERM BLK 3POS SIDE ENTRY 5MM PCB" x="20.447" y="-0.0635" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MNF" value="Wurth Elektronik" x="20.447" y="-0.0635" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MPN" value="691213710003 " x="20.447" y="-0.0635" size="1.778" layer="27" rot="R30" display="off"/>
-<attribute name="NAME" x="29.578871875" y="2.326" size="1.016" layer="25" rot="R120" align="bottom-center"/>
+<attribute name="NAME" x="22.6168" y="1.410271875" size="1.016" layer="25" rot="R210" align="bottom-center"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=691213710003&amp;currency=USD&amp;specs=0" x="20.447" y="-0.0635" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="PITCH" value="5mm" x="20.447" y="-0.0635" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="VALUE" x="20.4159125" y="-7.00965" size="1.27" layer="27" rot="R30"/>
@@ -3035,7 +3045,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="TERM BLK 2POS SIDE ENTRY 5MM PCB" x="-10.0965" y="-0.381" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MNF" value="Würth Elektronik" x="-10.0965" y="-0.381" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="MPN" value="691213710002" x="-10.0965" y="-0.381" size="1.778" layer="27" rot="R30" display="off"/>
-<attribute name="NAME" x="-3.137215625" y="0.022065625" size="1.016" layer="25" rot="R210" align="bottom-center"/>
+<attribute name="NAME" x="-10.020615625" y="-0.943134375" size="1.016" layer="25" rot="R210" align="bottom-center"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=691213710002&amp;currency=USD&amp;specs=0" x="-10.0965" y="-0.381" size="1.778" layer="27" rot="R30" display="off"/>
 <attribute name="VALUE" x="-10.1275875" y="-7.32715" size="1.27" layer="27" rot="R30"/>
 </element>
@@ -3478,7 +3488,7 @@ design rules under a new name.</description>
 </polygon>
 <via x="-17.526" y="3.302" extent="1-16" drill="0.35"/>
 <via x="-15.748" y="3.302" extent="1-16" drill="0.35"/>
-<via x="-13.97" y="3.302" extent="1-16" drill="0.35"/>
+<via x="-14.3764" y="2.8956" extent="1-16" drill="0.35"/>
 <via x="-13.208" y="4.572" extent="1-16" drill="0.35"/>
 <via x="-14.732" y="4.572" extent="1-16" drill="0.35"/>
 <via x="-16.51" y="4.572" extent="1-16" drill="0.35"/>
@@ -4372,9 +4382,9 @@ design rules under a new name.</description>
 <via x="26.2382" y="18.415" extent="1-16" drill="0.254" diameter="0.508"/>
 <via x="28.6258" y="17.0942" extent="1-16" drill="0.254" diameter="0.508"/>
 <via x="28.7274" y="14.859" extent="1-16" drill="0.254" diameter="0.508"/>
-<via x="28.7274" y="12.7" extent="1-16" drill="0.254" diameter="0.508"/>
-<via x="28.7274" y="10.4394" extent="1-16" drill="0.254" diameter="0.508"/>
-<via x="28.6766" y="8.4074" extent="1-16" drill="0.254" diameter="0.508"/>
+<via x="28.6004" y="12.8016" extent="1-16" drill="0.254" diameter="0.508"/>
+<via x="28.321" y="10.5918" extent="1-16" drill="0.254" diameter="0.508"/>
+<via x="28.829" y="8.6106" extent="1-16" drill="0.254" diameter="0.508"/>
 <via x="25.4762" y="11.684" extent="1-16" drill="0.254" diameter="0.508"/>
 <via x="25.4254" y="15.2654" extent="1-16" drill="0.254" diameter="0.508"/>
 <via x="6.35" y="25.8826" extent="1-16" drill="0.254" diameter="0.508"/>
@@ -5331,6 +5341,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
